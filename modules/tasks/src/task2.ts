@@ -1,13 +1,14 @@
+import { TODO } from '@flx-learn-ts/utils'
 
 /// Для заданного числа n > 1 найти минимальный делитель, превышающий 1
 export function minDivisor(number: number): number {
-    throw "Not implement."
+    throw TODO
 }
 
 /// Найти число Фибоначчи из ряда 1, 1, 2, 3, 5, 8, 13, 21, ... с номером n.
 /// Ряд Фибоначчи определён следующим образом: fib(1) = 1, fib(2) = 1, fib(n+2) = fib(n) + fib(n+1)
 export function fib(number: number): number {
-    throw "Not implement."
+    throw TODO
 }
 
 /// Нa шахматной доске стоят черный король и две белые ладьи (ладья бьет по горизонтали и вертикали).
@@ -16,5 +17,5 @@ export function fib(number: number): number {
 /// и 3, если угроза от обеих ладей.
 /// Считать, что ладьи не могут загораживать друг друга.
 export function whichRookThreatens(kingX: number, kingY: number, rookX1: number, rookY1: number, rookX2: number, rookY2: number): number {
-    throw "Not implement."
+    throw TODO
 }

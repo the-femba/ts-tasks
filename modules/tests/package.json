@@ -1,4 +1,7 @@
 {
-  "name": "@ts-tasks/tests",
-  "version": "1.0.0"
+    "name": "@flx-learn-ts/tests",
+    "private": true,
+    "version": "1.0.0",
+    "author": "flx",
+    "license": "MIT"
 }

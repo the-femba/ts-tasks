@@ -1,15 +1,16 @@
+import { TODO } from '@flx-learn-ts/utils'
 
 /// Дано seconds -- время в секундах, прошедшее с начала дня.
 /// Вернуть текущее время в виде строки в формате "ЧЧ:ММ:СС".
 export function timeSecondsToStr(digital: number): string {
-    throw "Not implement."
+    throw TODO
 }
 
 /// На вход функции передается дата формата 15.07.2016.
 /// Используя Regex проверить, дата соответствует формату или нет.
 /// Вохвратить true если соответствует.
 export function checkDate(digital: string): boolean {
-    throw "Not implement."
+    throw TODO
 }
 
 /// Дата представлена строкой вида "15.07.2016".
@@ -19,5 +20,5 @@ export function checkDate(digital: string): boolean {
 /// Обратите внимание: некорректная с точки зрения календаря дата (например, 30 февраля 2009) считается неверными
 /// входными данными.
 export function dateDigitToStr(digital: string): string {
-    throw "Not implement."
+    throw TODO
 }

@@ -1,8 +1,8 @@
-import { Pair } from "@ts-tasks/library";
+import { Pair, TODO } from '@flx-learn-ts/utils'
 
 /// Рассчитать среднее арифметическое элементов списка list. Вернуть 0.0, если список пуст
 export function mean(list: number[]): number {
-    throw "Not implement."
+    throw TODO
 }
 
 /// Найти в заданном списке повторяющиеся элементы и вернуть
@@ -14,7 +14,7 @@ export function mean(list: number[]): number {
 /// Например:
 /// extractRepeats(listOf("a", "b", "a")) -> mapOf("a" to 2)
 export function extractRepeats(list: string[]): Map<string, number> {
-    throw "Not implement."
+    throw TODO
 }
 
 /// Для заданного списка неотрицательных чисел и числа определить,
@@ -30,6 +30,6 @@ export function extractRepeats(list: string[]): Map<string, number> {
 /// Например:
 /// findSumOfTwo([1, 2, 3], 4) -> Pair(0, 2)
 /// findSumOfTwo([1, 2, 3], 6) -> Pair(-1, -1)
-export function findSumOfTwo(list: number[], number: number): Pair {
-    throw "Not implement."
+export function findSumOfTwo(list: number[], number: number): Pair<number, number> {
+    throw TODO
 }

@@ -1,16 +1,27 @@
 {
-  "include": [
-    "modules/**/*.ts"
-  ],
-  "compilerOptions": {
-    "target": "es2019",
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "baseUrl": "modules",
-    "esModuleInterop": true,
-    "strict": true,
-    "paths": {
-        "@ts-tasks/*": ["*/src"]
+    "compilerOptions": {
+        "target": "ES2021",
+        "module": "CommonJS",
+        "lib": [
+            "ES2021"
+        ],
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "strict": true,
+        "alwaysStrict": true,
+        "baseUrl": "modules",
+        "outDir": "build",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "declaration": true,
+        "paths": {
+            "@flx-learn-ts/*": [
+                "*/src"
+            ]
+        }
     },
-  }
+    "include": [
+        "modules/**/*.ts"
+    ]
 }
