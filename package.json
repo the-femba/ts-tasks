@@ -24,8 +24,9 @@
         "modules/*"
     ],
     "scripts": {
-        "build": "tsc --build --clean",
-        "watch": "tsc -w",
+        "clean": "tsc --build --clean",
+        "build": "tsc --build",
+        "watch": "tsc --watch",
         "test": "ts-mocha --paths --parallel tsconfig.json --ui bdd --recursive --color modules/tests/src/**/*.ts"
     }
 }
