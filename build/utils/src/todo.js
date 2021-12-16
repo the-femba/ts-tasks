@@ -8,4 +8,5 @@ class NotImplementError extends Error {
     }
 }
 exports.NotImplementError = NotImplementError;
-exports.TODO = new NotImplementError();
+exports.TODO = "Not implement.";
+//# sourceMappingURL=todo.js.map
